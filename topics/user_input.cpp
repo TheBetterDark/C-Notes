@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 // cout << (insertion operator) = used to insert data into the stream
 // cin >> (extraction operator) = used to extract data from the stream
