@@ -74,14 +74,14 @@ int main()
     // iterating over an array
     int numbers[] = {1, 2, 3, 4, 5};
 
-    for (int i = 0; i < sizeof(numbers)/sizeof(int); i++)
+    for (int i = 0; i < sizeof(numbers) / sizeof(int); i++)
     {
         std::cout << numbers[i] << '\n';
     }
 
     // For-each loop - Used to iterate over an iterable data set
     // Syntax: for (type variable : iterable) {}
-    
+
     std::string names[] = {"Alice", "Bob", "Charlie", "Dave", "Eve"};
 
     for (std::string name : names)
